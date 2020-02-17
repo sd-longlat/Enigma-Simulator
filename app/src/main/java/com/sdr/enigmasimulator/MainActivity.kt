@@ -1,10 +1,9 @@
 package com.sdr.enigmasimulator
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MotionEvent
 import android.widget.Button
-import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -144,17 +143,132 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun buttonPressed(action: Int, button: Button) {
-        when (action) {
+    private fun charDisplay(char: Char) {
+        val buttonRes = R.drawable.button_enabled_shape
+        when (char) {
+            'A' -> {
+                buttonLight_A.setBackgroundResource(buttonRes)
+            }
+            'B' -> {
+                buttonLight_B.setBackgroundResource(buttonRes)
+            }
+            'C' -> {
+                buttonLight_C.setBackgroundResource(buttonRes)
+            }
+            'D' -> {
+                buttonLight_D.setBackgroundResource(buttonRes)
+            }
+            'E' -> {
+                buttonLight_E.setBackgroundResource(buttonRes)
+            }
+            'F' -> {
+                buttonLight_F.setBackgroundResource(buttonRes)
+            }
+            'G' -> {
+                buttonLight_G.setBackgroundResource(buttonRes)
+            }
+            'H' -> {
+                buttonLight_H.setBackgroundResource(buttonRes)
+            }
+            'I' -> {
+                buttonLight_I.setBackgroundResource(buttonRes)
+            }
+            'J' -> {
+                buttonLight_J.setBackgroundResource(buttonRes)
+            }
+            'K' -> {
+                buttonLight_K.setBackgroundResource(buttonRes)
+            }
+            'L' -> {
+                buttonLight_L.setBackgroundResource(buttonRes)
+            }
+            'M' -> {
+                buttonLight_M.setBackgroundResource(buttonRes)
+            }
+            'N' -> {
+                buttonLight_N.setBackgroundResource(buttonRes)
+            }
+            'O' -> {
+                buttonLight_O.setBackgroundResource(buttonRes)
+            }
+            'P' -> {
+                buttonLight_P.setBackgroundResource(buttonRes)
+            }
+            'Q' -> {
+                buttonLight_Q.setBackgroundResource(buttonRes)
+            }
+            'R' -> {
+                buttonLight_R.setBackgroundResource(buttonRes)
+            }
+            'S' -> {
+                buttonLight_S.setBackgroundResource(buttonRes)
+            }
+            'T' -> {
+                buttonLight_T.setBackgroundResource(buttonRes)
+            }
+            'U' -> {
+                buttonLight_U.setBackgroundResource(buttonRes)
+            }
+            'V' -> {
+                buttonLight_V.setBackgroundResource(buttonRes)
+            }
+            'W' -> {
+                buttonLight_W.setBackgroundResource(buttonRes)
+            }
+            'X' -> {
+                buttonLight_X.setBackgroundResource(buttonRes)
+            }
+            'Y' -> {
+                buttonLight_Y.setBackgroundResource(buttonRes)
+            }
+            'Z' -> {
+                buttonLight_Z.setBackgroundResource(buttonRes)
+            }
+        }
+    }
 
+    private fun clearDisplay() {
+        val buttonRes = R.drawable.button_shape
+        buttonLight_A.setBackgroundResource(buttonRes)
+        buttonLight_B.setBackgroundResource(buttonRes)
+        buttonLight_C.setBackgroundResource(buttonRes)
+        buttonLight_D.setBackgroundResource(buttonRes)
+        buttonLight_E.setBackgroundResource(buttonRes)
+        buttonLight_F.setBackgroundResource(buttonRes)
+        buttonLight_G.setBackgroundResource(buttonRes)
+        buttonLight_H.setBackgroundResource(buttonRes)
+        buttonLight_I.setBackgroundResource(buttonRes)
+        buttonLight_J.setBackgroundResource(buttonRes)
+        buttonLight_K.setBackgroundResource(buttonRes)
+        buttonLight_L.setBackgroundResource(buttonRes)
+        buttonLight_M.setBackgroundResource(buttonRes)
+        buttonLight_N.setBackgroundResource(buttonRes)
+        buttonLight_O.setBackgroundResource(buttonRes)
+        buttonLight_P.setBackgroundResource(buttonRes)
+        buttonLight_Q.setBackgroundResource(buttonRes)
+        buttonLight_R.setBackgroundResource(buttonRes)
+        buttonLight_S.setBackgroundResource(buttonRes)
+        buttonLight_T.setBackgroundResource(buttonRes)
+        buttonLight_U.setBackgroundResource(buttonRes)
+        buttonLight_V.setBackgroundResource(buttonRes)
+        buttonLight_W.setBackgroundResource(buttonRes)
+        buttonLight_X.setBackgroundResource(buttonRes)
+        buttonLight_Y.setBackgroundResource(buttonRes)
+        buttonLight_Z.setBackgroundResource(buttonRes)
+    }
+
+    private fun buttonPressed(action: Int, button: Button) {
+        when (action) {
             MotionEvent.ACTION_DOWN -> {
                 button.setBackgroundResource(R.drawable.button_enabled_shape)
+                charDisplay(button.text[0])
             }
-
             MotionEvent.ACTION_UP -> {
                 button.setBackgroundResource(R.drawable.button_shape)
+                clearDisplay()
             }
-            else -> { }
+            else -> {
+            }
         }
     }
 }

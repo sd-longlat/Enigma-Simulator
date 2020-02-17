@@ -5,9 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/baseColor"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -126,6 +128,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
             android:gravity="center"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
             tools:ignore="ButtonStyle">
 
             <Button
@@ -315,6 +319,329 @@
 
             <Button
                 android:id="@+id/button_L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="L"
+                android:textColor="@color/textColor" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            tools:ignore="ButtonStyle">
+
+            <Button
+                android:id="@+id/buttonLight_Q"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="Q"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_W"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="W"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="E"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="R"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_T"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="T"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_Z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="Z"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_U"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="U"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_I"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="I"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_O"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="O"
+                android:textColor="@color/textColor" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            tools:ignore="ButtonStyle">
+
+            <Button
+                android:id="@+id/buttonLight_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="A"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_S"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="S"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="D"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="F"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_G"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="G"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="H"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_J"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="J"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_K"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="K"
+                android:textColor="@color/textColor" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            tools:ignore="ButtonStyle">
+
+            <Button
+                android:id="@+id/buttonLight_P"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="P"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_Y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="Y"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="X"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="C"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_V"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="V"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="B"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="N"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="M"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/buttonLight_L"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
