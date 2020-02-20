@@ -332,6 +332,7 @@
     </TableLayout>
 
     <TableLayout
+        android:id="@+id/tableLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -653,5 +654,22 @@
         </TableRow>
 
     </TableLayout>
+
+    <EditText
+        android:id="@+id/textViewOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/text_bg"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:scrollbars="horizontal"
+        android:singleLine="true"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout3"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

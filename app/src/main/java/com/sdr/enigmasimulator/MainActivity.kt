@@ -2,11 +2,14 @@ package com.sdr.enigmasimulator
 
 import android.os.Bundle
 import android.view.MotionEvent
+import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+    var resultText: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -144,7 +147,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun charDisplay(char: Char) {
+        textViewOutput.visibility = View.VISIBLE
         val buttonRes = R.drawable.button_enabled_shape
+        if ((resultText.length % 5 == 0) && (resultText.isNotEmpty())) {
+            textViewOutput.setText(resultText.plus(" "))
+        }
+        resultText = resultText.plus(char.toString())
+        textViewOutput.setText(textViewOutput.text.append(char))
+
         when (char) {
             'A' -> {
                 buttonLight_A.setBackgroundResource(buttonRes)
