@@ -153,7 +153,7 @@ class MainActivity : AppCompatActivity() {
             textViewOutput.setText(resultText.plus(" "))
         }
         resultText = resultText.plus(char.toString())
-        textViewOutput.setText(textViewOutput.text.append(char))
+        textViewOutput.text = resultText
 
         when (char) {
             'A' -> {
@@ -271,10 +271,12 @@ class MainActivity : AppCompatActivity() {
         when (action) {
             MotionEvent.ACTION_DOWN -> {
                 button.setBackgroundResource(R.drawable.button_enabled_shape)
+                button.setTextColor(resources.getColor(R.color.textColorActive))
                 charDisplay(button.text[0])
             }
             MotionEvent.ACTION_UP -> {
                 button.setBackgroundResource(R.drawable.button_shape)
+                button.setTextColor(resources.getColor(R.color.textColor))
                 clearDisplay()
             }
             else -> {

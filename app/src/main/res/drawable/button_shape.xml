@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="2dp"
+        android:color="@color/highlightColor"/>
+
     <corners
         android:radius="200dp" />
 
@@ -10,6 +14,6 @@
         android:top="1dp"
         android:bottom="1dp"/>
 
-    <solid android:color="@color/defaultColor"/>
+    <solid android:color="@color/buttonNonActiveColor"/>
 
 </shape>

@@ -9,7 +9,7 @@
     tools:ignore="HardcodedText">
 
     <TableLayout
-        android:id="@+id/tableLayout"
+        android:id="@+id/tableLayoutInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="Q"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_W"
@@ -43,7 +44,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="W"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_E"
@@ -54,7 +56,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="E"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_R"
@@ -65,7 +68,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="R"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_T"
@@ -76,7 +80,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="T"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_Z"
@@ -87,7 +92,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="Z"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_U"
@@ -98,7 +104,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="U"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_I"
@@ -109,7 +116,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="I"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_O"
@@ -120,7 +128,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="O"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
         </TableRow>
 
         <TableRow
@@ -141,7 +150,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="A"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_S"
@@ -152,7 +162,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="S"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_D"
@@ -163,7 +174,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="D"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_F"
@@ -174,7 +186,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="F"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_G"
@@ -185,7 +198,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="G"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_H"
@@ -196,7 +210,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="H"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_J"
@@ -207,7 +222,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="J"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_K"
@@ -218,7 +234,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="K"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
         </TableRow>
 
@@ -238,7 +255,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="P"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_Y"
@@ -249,7 +267,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="Y"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_X"
@@ -260,7 +279,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="X"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_C"
@@ -271,7 +291,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="C"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_V"
@@ -282,7 +303,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="V"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_B"
@@ -293,7 +315,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="B"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_N"
@@ -304,7 +327,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="N"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_M"
@@ -315,7 +339,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="M"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/button_L"
@@ -326,17 +351,18 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="L"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
         </TableRow>
 
     </TableLayout>
 
     <TableLayout
-        android:id="@+id/tableLayout3"
+        android:id="@+id/tableLayoutOutput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayoutInput"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
@@ -356,7 +382,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="Q"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_W"
@@ -367,7 +394,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="W"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_E"
@@ -378,7 +406,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="E"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_R"
@@ -389,7 +418,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="R"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_T"
@@ -400,7 +430,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="T"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_Z"
@@ -411,7 +442,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="Z"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_U"
@@ -422,7 +454,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="U"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_I"
@@ -433,7 +466,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="I"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_O"
@@ -444,7 +478,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="O"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
         </TableRow>
 
         <TableRow
@@ -465,7 +500,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="A"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_S"
@@ -476,7 +512,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="S"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_D"
@@ -487,7 +524,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="D"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_F"
@@ -498,7 +536,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="F"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_G"
@@ -509,7 +548,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="G"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_H"
@@ -520,7 +560,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="H"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_J"
@@ -531,7 +572,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="J"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_K"
@@ -542,7 +584,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="K"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
         </TableRow>
 
@@ -562,7 +605,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="P"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_Y"
@@ -573,7 +617,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="Y"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_X"
@@ -584,7 +629,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="X"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_C"
@@ -595,7 +641,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="C"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_V"
@@ -606,7 +653,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="V"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_B"
@@ -617,7 +665,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="B"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_N"
@@ -628,7 +677,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="N"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_M"
@@ -639,7 +689,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="M"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
 
             <Button
                 android:id="@+id/buttonLight_L"
@@ -650,26 +701,40 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
                 android:text="L"
-                android:textColor="@color/textColor" />
+                android:textColor="@color/textColor"
+                android:typeface="serif" />
         </TableRow>
 
     </TableLayout>
 
-    <EditText
-        android:id="@+id/textViewOutput"
-        android:layout_width="wrap_content"
+    <HorizontalScrollView
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/text_bg"
-        android:paddingLeft="3dp"
-        android:paddingRight="3dp"
-        android:scrollbars="horizontal"
-        android:singleLine="true"
-        android:textAlignment="viewEnd"
-        android:textColor="@color/textColor"
-        android:textSize="30sp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/tableLayout3"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayoutOutput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewOutput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123123123123123123123123123123123123123123123123"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:typeface="serif" />
+        </LinearLayout>
+    </HorizontalScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

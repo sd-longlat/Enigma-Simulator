@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="baseColor">#666666</color>
-    <color name="highlightColor">#fc6203</color>
-    <color name="defaultColor">#3B3B3B</color>
+    <color name="baseColor">#36484C</color>
+    <color name="highlightColor">#D0D2CF</color>
+    <color name="buttonNonActiveColor">#3B3B3B</color>
+    <color name="buttonActiveColor">#2D2D2D</color>
     <color name="textColor">#EBEBEB</color>
+    <color name="textColorActive">#CECECE</color>
 </resources>
