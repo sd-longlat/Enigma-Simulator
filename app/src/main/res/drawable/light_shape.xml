@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
         android:width="2dp"
-        android:color="@color/buttonStrokeColor"/>
+        android:color="@color/lightStrokeColor"/>
 
     <corners
         android:radius="200dp" />
@@ -14,6 +14,6 @@
         android:top="1dp"
         android:bottom="1dp"/>
 
-    <solid android:color="@color/buttonNonActiveColor"/>
+    <solid android:color="@color/lightBgColor"/>
 
 </shape>

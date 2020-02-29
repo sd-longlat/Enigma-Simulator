@@ -14,6 +14,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        rotorA.minValue = 0
+        rotorA.maxValue = 25
+        rotorB.minValue = 0
+        rotorB.maxValue = 25
+        rotorC.minValue = 0
+        rotorC.maxValue = 25
         button_Q.setOnTouchListener { _, event ->
             val action = event.action
             buttonPressed(action, button_Q)
@@ -148,135 +154,137 @@ class MainActivity : AppCompatActivity() {
 
     private fun charDisplay(char: Char) {
         textViewOutput.visibility = View.VISIBLE
-        val buttonRes = R.drawable.button_enabled_shape
+        val buttonRes = resources.getColor(R.color.lightTextColorActive)
         if ((resultText.length % 5 == 0) && (resultText.isNotEmpty())) {
-            textViewOutput.setText(resultText.plus(" "))
+            textViewOutput.text = resultText.plus(" ")
         }
+        if ((resultText.replace(" ","").length % 5 == 0) && (resultText.isNotEmpty()))
+            resultText = resultText.plus(" ")
         resultText = resultText.plus(char.toString())
         textViewOutput.text = resultText
 
         when (char) {
             'A' -> {
-                buttonLight_A.setBackgroundResource(buttonRes)
+                buttonLight_A.setTextColor(buttonRes)
             }
             'B' -> {
-                buttonLight_B.setBackgroundResource(buttonRes)
+                buttonLight_B.setTextColor(buttonRes)
             }
             'C' -> {
-                buttonLight_C.setBackgroundResource(buttonRes)
+                buttonLight_C.setTextColor(buttonRes)
             }
             'D' -> {
-                buttonLight_D.setBackgroundResource(buttonRes)
+                buttonLight_D.setTextColor(buttonRes)
             }
             'E' -> {
-                buttonLight_E.setBackgroundResource(buttonRes)
+                buttonLight_E.setTextColor(buttonRes)
             }
             'F' -> {
-                buttonLight_F.setBackgroundResource(buttonRes)
+                buttonLight_F.setTextColor(buttonRes)
             }
             'G' -> {
-                buttonLight_G.setBackgroundResource(buttonRes)
+                buttonLight_G.setTextColor(buttonRes)
             }
             'H' -> {
-                buttonLight_H.setBackgroundResource(buttonRes)
+                buttonLight_H.setTextColor(buttonRes)
             }
             'I' -> {
-                buttonLight_I.setBackgroundResource(buttonRes)
+                buttonLight_I.setTextColor(buttonRes)
             }
             'J' -> {
-                buttonLight_J.setBackgroundResource(buttonRes)
+                buttonLight_J.setTextColor(buttonRes)
             }
             'K' -> {
-                buttonLight_K.setBackgroundResource(buttonRes)
+                buttonLight_K.setTextColor(buttonRes)
             }
             'L' -> {
-                buttonLight_L.setBackgroundResource(buttonRes)
+                buttonLight_L.setTextColor(buttonRes)
             }
             'M' -> {
-                buttonLight_M.setBackgroundResource(buttonRes)
+                buttonLight_M.setTextColor(buttonRes)
             }
             'N' -> {
-                buttonLight_N.setBackgroundResource(buttonRes)
+                buttonLight_N.setTextColor(buttonRes)
             }
             'O' -> {
-                buttonLight_O.setBackgroundResource(buttonRes)
+                buttonLight_O.setTextColor(buttonRes)
             }
             'P' -> {
-                buttonLight_P.setBackgroundResource(buttonRes)
+                buttonLight_P.setTextColor(buttonRes)
             }
             'Q' -> {
-                buttonLight_Q.setBackgroundResource(buttonRes)
+                buttonLight_Q.setTextColor(buttonRes)
             }
             'R' -> {
-                buttonLight_R.setBackgroundResource(buttonRes)
+                buttonLight_R.setTextColor(buttonRes)
             }
             'S' -> {
-                buttonLight_S.setBackgroundResource(buttonRes)
+                buttonLight_S.setTextColor(buttonRes)
             }
             'T' -> {
-                buttonLight_T.setBackgroundResource(buttonRes)
+                buttonLight_T.setTextColor(buttonRes)
             }
             'U' -> {
-                buttonLight_U.setBackgroundResource(buttonRes)
+                buttonLight_U.setTextColor(buttonRes)
             }
             'V' -> {
-                buttonLight_V.setBackgroundResource(buttonRes)
+                buttonLight_V.setTextColor(buttonRes)
             }
             'W' -> {
-                buttonLight_W.setBackgroundResource(buttonRes)
+                buttonLight_W.setTextColor(buttonRes)
             }
             'X' -> {
-                buttonLight_X.setBackgroundResource(buttonRes)
+                buttonLight_X.setTextColor(buttonRes)
             }
             'Y' -> {
-                buttonLight_Y.setBackgroundResource(buttonRes)
+                buttonLight_Y.setTextColor(buttonRes)
             }
             'Z' -> {
-                buttonLight_Z.setBackgroundResource(buttonRes)
+                buttonLight_Z.setTextColor(buttonRes)
             }
         }
     }
 
     private fun clearDisplay() {
-        val buttonRes = R.drawable.button_shape
-        buttonLight_A.setBackgroundResource(buttonRes)
-        buttonLight_B.setBackgroundResource(buttonRes)
-        buttonLight_C.setBackgroundResource(buttonRes)
-        buttonLight_D.setBackgroundResource(buttonRes)
-        buttonLight_E.setBackgroundResource(buttonRes)
-        buttonLight_F.setBackgroundResource(buttonRes)
-        buttonLight_G.setBackgroundResource(buttonRes)
-        buttonLight_H.setBackgroundResource(buttonRes)
-        buttonLight_I.setBackgroundResource(buttonRes)
-        buttonLight_J.setBackgroundResource(buttonRes)
-        buttonLight_K.setBackgroundResource(buttonRes)
-        buttonLight_L.setBackgroundResource(buttonRes)
-        buttonLight_M.setBackgroundResource(buttonRes)
-        buttonLight_N.setBackgroundResource(buttonRes)
-        buttonLight_O.setBackgroundResource(buttonRes)
-        buttonLight_P.setBackgroundResource(buttonRes)
-        buttonLight_Q.setBackgroundResource(buttonRes)
-        buttonLight_R.setBackgroundResource(buttonRes)
-        buttonLight_S.setBackgroundResource(buttonRes)
-        buttonLight_T.setBackgroundResource(buttonRes)
-        buttonLight_U.setBackgroundResource(buttonRes)
-        buttonLight_V.setBackgroundResource(buttonRes)
-        buttonLight_W.setBackgroundResource(buttonRes)
-        buttonLight_X.setBackgroundResource(buttonRes)
-        buttonLight_Y.setBackgroundResource(buttonRes)
-        buttonLight_Z.setBackgroundResource(buttonRes)
+        val buttonRes = resources.getColor(R.color.lightTextColor)
+        buttonLight_A.setTextColor(buttonRes)
+        buttonLight_B.setTextColor(buttonRes)
+        buttonLight_C.setTextColor(buttonRes)
+        buttonLight_D.setTextColor(buttonRes)
+        buttonLight_E.setTextColor(buttonRes)
+        buttonLight_F.setTextColor(buttonRes)
+        buttonLight_G.setTextColor(buttonRes)
+        buttonLight_H.setTextColor(buttonRes)
+        buttonLight_I.setTextColor(buttonRes)
+        buttonLight_J.setTextColor(buttonRes)
+        buttonLight_K.setTextColor(buttonRes)
+        buttonLight_L.setTextColor(buttonRes)
+        buttonLight_M.setTextColor(buttonRes)
+        buttonLight_N.setTextColor(buttonRes)
+        buttonLight_O.setTextColor(buttonRes)
+        buttonLight_P.setTextColor(buttonRes)
+        buttonLight_Q.setTextColor(buttonRes)
+        buttonLight_R.setTextColor(buttonRes)
+        buttonLight_S.setTextColor(buttonRes)
+        buttonLight_T.setTextColor(buttonRes)
+        buttonLight_U.setTextColor(buttonRes)
+        buttonLight_V.setTextColor(buttonRes)
+        buttonLight_W.setTextColor(buttonRes)
+        buttonLight_X.setTextColor(buttonRes)
+        buttonLight_Y.setTextColor(buttonRes)
+        buttonLight_Z.setTextColor(buttonRes)
     }
 
     private fun buttonPressed(action: Int, button: Button) {
         when (action) {
             MotionEvent.ACTION_DOWN -> {
                 button.setBackgroundResource(R.drawable.button_enabled_shape)
-                button.setTextColor(resources.getColor(R.color.textColorActive))
+                button.setTextColor(resources.getColor(R.color.buttonTextColorActive))
                 charDisplay(button.text[0])
             }
             MotionEvent.ACTION_UP -> {
                 button.setBackgroundResource(R.drawable.button_shape)
-                button.setTextColor(resources.getColor(R.color.textColor))
+                button.setTextColor(resources.getColor(R.color.buttonTextColor))
                 clearDisplay()
             }
             else -> {

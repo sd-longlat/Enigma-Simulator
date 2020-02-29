@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="baseColor">#36484C</color>
-    <color name="highlightColor">#D0D2CF</color>
+    <color name="buttonStrokeColor">#D0D2CF</color>
     <color name="buttonNonActiveColor">#3B3B3B</color>
     <color name="buttonActiveColor">#2D2D2D</color>
-    <color name="textColor">#EBEBEB</color>
-    <color name="textColorActive">#CECECE</color>
+    <color name="buttonTextColor">#EBEBEB</color>
+    <color name="buttonTextColorActive">#CECECE</color>
+    <color name="lightTextColor">#40403F</color>
+    <color name="lightTextColorActive">#E2CB91</color>
+    <color name="lightBgColor">#333333</color>
+    <color name="lightStrokeColor">#1C1C1D</color>
+    
 </resources>
