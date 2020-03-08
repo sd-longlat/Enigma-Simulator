@@ -44,6 +44,7 @@
                 android:background="@drawable/button_shape"
                 android:text="Q"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -56,6 +57,7 @@
                 android:background="@drawable/button_shape"
                 android:text="W"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -68,6 +70,7 @@
                 android:background="@drawable/button_shape"
                 android:text="E"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -80,6 +83,7 @@
                 android:background="@drawable/button_shape"
                 android:text="R"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -92,6 +96,7 @@
                 android:background="@drawable/button_shape"
                 android:text="T"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -104,6 +109,7 @@
                 android:background="@drawable/button_shape"
                 android:text="Z"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -116,6 +122,7 @@
                 android:background="@drawable/button_shape"
                 android:text="U"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -128,6 +135,7 @@
                 android:background="@drawable/button_shape"
                 android:text="I"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -140,6 +148,7 @@
                 android:background="@drawable/button_shape"
                 android:text="O"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
         </TableRow>
 
@@ -162,6 +171,7 @@
                 android:background="@drawable/button_shape"
                 android:text="A"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -174,6 +184,7 @@
                 android:background="@drawable/button_shape"
                 android:text="S"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -186,6 +197,7 @@
                 android:background="@drawable/button_shape"
                 android:text="D"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -198,6 +210,7 @@
                 android:background="@drawable/button_shape"
                 android:text="F"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -210,6 +223,7 @@
                 android:background="@drawable/button_shape"
                 android:text="G"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -222,6 +236,7 @@
                 android:background="@drawable/button_shape"
                 android:text="H"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -234,6 +249,7 @@
                 android:background="@drawable/button_shape"
                 android:text="J"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -246,6 +262,7 @@
                 android:background="@drawable/button_shape"
                 android:text="K"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
         </TableRow>
@@ -267,6 +284,7 @@
                 android:background="@drawable/button_shape"
                 android:text="P"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -279,6 +297,7 @@
                 android:background="@drawable/button_shape"
                 android:text="Y"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -291,6 +310,7 @@
                 android:background="@drawable/button_shape"
                 android:text="X"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -303,6 +323,7 @@
                 android:background="@drawable/button_shape"
                 android:text="C"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -315,6 +336,7 @@
                 android:background="@drawable/button_shape"
                 android:text="V"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -327,6 +349,7 @@
                 android:background="@drawable/button_shape"
                 android:text="B"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -339,6 +362,7 @@
                 android:background="@drawable/button_shape"
                 android:text="N"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -351,6 +375,7 @@
                 android:background="@drawable/button_shape"
                 android:text="M"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
 
             <Button
@@ -363,6 +388,7 @@
                 android:background="@drawable/button_shape"
                 android:text="L"
                 android:textColor="@color/buttonTextColor"
+                android:textSize="16sp"
                 android:typeface="serif" />
         </TableRow>
 
@@ -394,6 +420,7 @@
                 android:background="@drawable/light_shape"
                 android:text="Q"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -407,6 +434,7 @@
                 android:background="@drawable/light_shape"
                 android:text="W"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -420,6 +448,7 @@
                 android:background="@drawable/light_shape"
                 android:text="E"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -433,6 +462,7 @@
                 android:background="@drawable/light_shape"
                 android:text="R"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -446,6 +476,7 @@
                 android:background="@drawable/light_shape"
                 android:text="T"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -459,6 +490,7 @@
                 android:background="@drawable/light_shape"
                 android:text="Z"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -472,6 +504,7 @@
                 android:background="@drawable/light_shape"
                 android:text="U"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -485,6 +518,7 @@
                 android:background="@drawable/light_shape"
                 android:text="I"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -498,6 +532,7 @@
                 android:background="@drawable/light_shape"
                 android:text="O"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
         </TableRow>
@@ -521,6 +556,7 @@
                 android:background="@drawable/light_shape"
                 android:text="A"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -534,6 +570,7 @@
                 android:background="@drawable/light_shape"
                 android:text="S"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -547,6 +584,7 @@
                 android:background="@drawable/light_shape"
                 android:text="D"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -560,6 +598,7 @@
                 android:background="@drawable/light_shape"
                 android:text="F"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -573,6 +612,7 @@
                 android:background="@drawable/light_shape"
                 android:text="G"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -586,6 +626,7 @@
                 android:background="@drawable/light_shape"
                 android:text="H"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -599,6 +640,7 @@
                 android:background="@drawable/light_shape"
                 android:text="J"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -612,6 +654,7 @@
                 android:background="@drawable/light_shape"
                 android:text="K"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -634,6 +677,7 @@
                 android:background="@drawable/light_shape"
                 android:text="P"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -647,6 +691,7 @@
                 android:background="@drawable/light_shape"
                 android:text="Y"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -660,6 +705,7 @@
                 android:background="@drawable/light_shape"
                 android:text="X"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -673,6 +719,7 @@
                 android:background="@drawable/light_shape"
                 android:text="C"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -686,6 +733,7 @@
                 android:background="@drawable/light_shape"
                 android:text="V"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -699,6 +747,7 @@
                 android:background="@drawable/light_shape"
                 android:text="B"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -712,6 +761,7 @@
                 android:background="@drawable/light_shape"
                 android:text="N"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -725,6 +775,7 @@
                 android:background="@drawable/light_shape"
                 android:text="M"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -738,6 +789,7 @@
                 android:background="@drawable/light_shape"
                 android:text="L"
                 android:textColor="@color/lightTextColor"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
         </TableRow>
@@ -750,7 +802,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="6dp"
         android:layout_marginEnd="6dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/text_bg"
         android:paddingLeft="4dp"
         android:paddingRight="4dp"
@@ -769,7 +821,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/buttonTextColor"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:typeface="serif" />
         </LinearLayout>
     </HorizontalScrollView>
@@ -778,42 +830,127 @@
         android:id="@+id/rotorsLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:minHeight="10dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6">
+        app:layout_constraintVertical_bias="0.5">
 
         <NumberPicker
             android:id="@+id/rotorA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:width="100dp"
-            android:background="@drawable/button_shape"
+            android:background="@drawable/text_bg"
             android:orientation="vertical" />
 
         <NumberPicker
             android:id="@+id/rotorB"
+            style="@android:style/Widget.Material.NumberPicker"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:width="100dp"
-            android:background="@drawable/button_shape"
+            android:background="@drawable/text_bg"
             android:orientation="vertical" />
 
         <NumberPicker
             android:id="@+id/rotorC"
+            style="@android:style/Widget.Material.NumberPicker"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:width="100dp"
-            android:background="@drawable/button_shape"
+            android:background="@drawable/text_bg"
             android:orientation="vertical" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_bg"
+        android:text="Settings"
+        android:textColor="@color/buttonTextColor"
+        app:layout_constraintBottom_toBottomOf="@+id/rotorsLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toEndOf="@+id/rotorsLayout"
+        app:layout_constraintTop_toTopOf="@+id/rotorsLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/rotorsLayout"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/rotorsLayout"
+        app:layout_constraintTop_toBottomOf="@+id/button2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_bg"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="ROTORS"
+                android:textAlignment="center"
+                android:textColor="@color/buttonTextColor" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:textColor="@color/buttonTextColor" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/text_bg"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="START POSITION"
+                android:textAlignment="center"
+                android:textColor="@color/buttonTextColor" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:textColor="@color/buttonTextColor" />
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
