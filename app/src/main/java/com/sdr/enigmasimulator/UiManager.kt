@@ -1,7 +1,7 @@
 package com.sdr.enigmasimulator
 
-import android.widget.TableLayout
+import kotlinx.android.synthetic.main.activity_main.*
 
-class UiManager(tableLayout: TableLayout) {
+class UiManager() {
 
 }

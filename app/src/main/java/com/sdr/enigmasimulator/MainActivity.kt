@@ -5,11 +5,15 @@ import android.view.MotionEvent
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.sdr.enigmasimulator.enigma.PlugBoardSwitch
 import kotlinx.android.synthetic.main.activity_main.*
+
 
 class MainActivity : AppCompatActivity() {
 
     var resultText: String = ""
+    val switches = arrayOfNulls<PlugBoardSwitch>(10)
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

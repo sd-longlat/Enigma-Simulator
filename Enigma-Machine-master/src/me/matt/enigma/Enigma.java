@@ -20,7 +20,6 @@ public class Enigma {
         final Scanner s = new Scanner(System.in);
 
         // Setup the plugobard
-        final PlugBoardSwitch[] switches = new PlugBoardSwitch[10];
 
         System.out
                 .println("What are your plugboard settings? (2 characters, seperated by a space)");
