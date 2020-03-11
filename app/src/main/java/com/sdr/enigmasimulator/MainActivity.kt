@@ -18,12 +18,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        rotorA.minValue = 0
-        rotorA.maxValue = 25
-        rotorB.minValue = 0
-        rotorB.maxValue = 25
-        rotorC.minValue = 0
-        rotorC.maxValue = 25
+        rotorA.minValue = 1
+        rotorA.maxValue = 26
+        rotorB.minValue = 1
+        rotorB.maxValue = 26
+        rotorC.minValue = 1
+        rotorC.maxValue = 26
         buttonInit()
     }
 
