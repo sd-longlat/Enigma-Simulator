@@ -1,5 +1,6 @@
 package com.sdr.enigmasimulator
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.MotionEvent
 import android.view.View
@@ -14,143 +15,22 @@ class MainActivity : AppCompatActivity() {
     var resultText: String = ""
     val switches = arrayOfNulls<PlugBoardSwitch>(10)
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        startInit()
+    }
+
+    private fun startInit() {
+        //Rotors initialization
         rotorA.minValue = 1
         rotorA.maxValue = 26
         rotorB.minValue = 1
         rotorB.maxValue = 26
         rotorC.minValue = 1
         rotorC.maxValue = 26
-        buttonInit()
-    }
 
-    private fun charDisplay(char: Char) {
-        textViewOutput.visibility = View.VISIBLE
-        val buttonRes = resources.getColor(R.color.lightTextColorActive)
-        if ((resultText.length % 5 == 0) && (resultText.isNotEmpty())) {
-            textViewOutput.text = resultText.plus(" ")
-        }
-        if ((resultText.replace(" ","").length % 5 == 0) && (resultText.isNotEmpty()))
-            resultText = resultText.plus(" ")
-        resultText = resultText.plus(char.toString())
-        textViewOutput.text = resultText
-
-        when (char) {
-            'A' -> {
-                buttonLight_A.setTextColor(buttonRes)
-            }
-            'B' -> {
-                buttonLight_B.setTextColor(buttonRes)
-            }
-            'C' -> {
-                buttonLight_C.setTextColor(buttonRes)
-            }
-            'D' -> {
-                buttonLight_D.setTextColor(buttonRes)
-            }
-            'E' -> {
-                buttonLight_E.setTextColor(buttonRes)
-            }
-            'F' -> {
-                buttonLight_F.setTextColor(buttonRes)
-            }
-            'G' -> {
-                buttonLight_G.setTextColor(buttonRes)
-            }
-            'H' -> {
-                buttonLight_H.setTextColor(buttonRes)
-            }
-            'I' -> {
-                buttonLight_I.setTextColor(buttonRes)
-            }
-            'J' -> {
-                buttonLight_J.setTextColor(buttonRes)
-            }
-            'K' -> {
-                buttonLight_K.setTextColor(buttonRes)
-            }
-            'L' -> {
-                buttonLight_L.setTextColor(buttonRes)
-            }
-            'M' -> {
-                buttonLight_M.setTextColor(buttonRes)
-            }
-            'N' -> {
-                buttonLight_N.setTextColor(buttonRes)
-            }
-            'O' -> {
-                buttonLight_O.setTextColor(buttonRes)
-            }
-            'P' -> {
-                buttonLight_P.setTextColor(buttonRes)
-            }
-            'Q' -> {
-                buttonLight_Q.setTextColor(buttonRes)
-            }
-            'R' -> {
-                buttonLight_R.setTextColor(buttonRes)
-            }
-            'S' -> {
-                buttonLight_S.setTextColor(buttonRes)
-            }
-            'T' -> {
-                buttonLight_T.setTextColor(buttonRes)
-            }
-            'U' -> {
-                buttonLight_U.setTextColor(buttonRes)
-            }
-            'V' -> {
-                buttonLight_V.setTextColor(buttonRes)
-            }
-            'W' -> {
-                buttonLight_W.setTextColor(buttonRes)
-            }
-            'X' -> {
-                buttonLight_X.setTextColor(buttonRes)
-            }
-            'Y' -> {
-                buttonLight_Y.setTextColor(buttonRes)
-            }
-            'Z' -> {
-                buttonLight_Z.setTextColor(buttonRes)
-            }
-        }
-    }
-
-    private fun clearDisplay() {
-        val buttonRes = resources.getColor(R.color.lightTextColor)
-        buttonLight_A.setTextColor(buttonRes)
-        buttonLight_B.setTextColor(buttonRes)
-        buttonLight_C.setTextColor(buttonRes)
-        buttonLight_D.setTextColor(buttonRes)
-        buttonLight_E.setTextColor(buttonRes)
-        buttonLight_F.setTextColor(buttonRes)
-        buttonLight_G.setTextColor(buttonRes)
-        buttonLight_H.setTextColor(buttonRes)
-        buttonLight_I.setTextColor(buttonRes)
-        buttonLight_J.setTextColor(buttonRes)
-        buttonLight_K.setTextColor(buttonRes)
-        buttonLight_L.setTextColor(buttonRes)
-        buttonLight_M.setTextColor(buttonRes)
-        buttonLight_N.setTextColor(buttonRes)
-        buttonLight_O.setTextColor(buttonRes)
-        buttonLight_P.setTextColor(buttonRes)
-        buttonLight_Q.setTextColor(buttonRes)
-        buttonLight_R.setTextColor(buttonRes)
-        buttonLight_S.setTextColor(buttonRes)
-        buttonLight_T.setTextColor(buttonRes)
-        buttonLight_U.setTextColor(buttonRes)
-        buttonLight_V.setTextColor(buttonRes)
-        buttonLight_W.setTextColor(buttonRes)
-        buttonLight_X.setTextColor(buttonRes)
-        buttonLight_Y.setTextColor(buttonRes)
-        buttonLight_Z.setTextColor(buttonRes)
-    }
-
-    private fun buttonInit() {
+        //Keyboard and lightboard buttons on click visual initialization
         button_Q.setOnTouchListener { _, event ->
             val action = event.action
             buttonPressed(action, button_Q)
@@ -281,6 +161,86 @@ class MainActivity : AppCompatActivity() {
             buttonPressed(action, button_L)
             true
         }
+
+        //Functional buttons visual initialization
+        buttonSettings.setOnTouchListener { _, event ->
+            val action = event.action
+            buttonPressed(action, buttonSettings)
+            val settingIntent = Intent(this, Settings::class.java)
+            startActivity(settingIntent)
+            true  }
+    }
+
+    private fun charDisplay(char: Char) {
+        textViewOutput.visibility = View.VISIBLE
+        val buttonRes = resources.getColor(R.color.lightTextColorActive)
+
+        //Splitting the text into parts of 5 characters
+        if ((resultText.length % 5 == 0) && (resultText.isNotEmpty())) {
+            textViewOutput.text = resultText.plus(" ")
+        }
+        if ((resultText.replace(" ","").length % 5 == 0) && (resultText.isNotEmpty()))
+            resultText = resultText.plus(" ")
+        resultText = resultText.plus(char.toString())
+        textViewOutput.text = resultText
+        when (char) {
+            'A' -> { buttonLight_A.setTextColor(buttonRes) }
+            'B' -> { buttonLight_B.setTextColor(buttonRes) }
+            'C' -> { buttonLight_C.setTextColor(buttonRes) }
+            'D' -> { buttonLight_D.setTextColor(buttonRes) }
+            'E' -> { buttonLight_E.setTextColor(buttonRes) }
+            'F' -> { buttonLight_F.setTextColor(buttonRes) }
+            'G' -> { buttonLight_G.setTextColor(buttonRes) }
+            'H' -> { buttonLight_H.setTextColor(buttonRes) }
+            'I' -> { buttonLight_I.setTextColor(buttonRes) }
+            'J' -> { buttonLight_J.setTextColor(buttonRes) }
+            'K' -> { buttonLight_K.setTextColor(buttonRes) }
+            'L' -> { buttonLight_L.setTextColor(buttonRes) }
+            'M' -> { buttonLight_M.setTextColor(buttonRes) }
+            'N' -> { buttonLight_N.setTextColor(buttonRes) }
+            'O' -> { buttonLight_O.setTextColor(buttonRes) }
+            'P' -> { buttonLight_P.setTextColor(buttonRes) }
+            'Q' -> { buttonLight_Q.setTextColor(buttonRes) }
+            'R' -> { buttonLight_R.setTextColor(buttonRes) }
+            'S' -> { buttonLight_S.setTextColor(buttonRes) }
+            'T' -> { buttonLight_T.setTextColor(buttonRes) }
+            'U' -> { buttonLight_U.setTextColor(buttonRes) }
+            'V' -> { buttonLight_V.setTextColor(buttonRes) }
+            'W' -> { buttonLight_W.setTextColor(buttonRes) }
+            'X' -> { buttonLight_X.setTextColor(buttonRes) }
+            'Y' -> { buttonLight_Y.setTextColor(buttonRes) }
+            'Z' -> { buttonLight_Z.setTextColor(buttonRes) }
+        }
+    }
+
+    private fun clearDisplay() {
+        val buttonRes = resources.getColor(R.color.lightTextColor)
+        buttonLight_A.setTextColor(buttonRes)
+        buttonLight_B.setTextColor(buttonRes)
+        buttonLight_C.setTextColor(buttonRes)
+        buttonLight_D.setTextColor(buttonRes)
+        buttonLight_E.setTextColor(buttonRes)
+        buttonLight_F.setTextColor(buttonRes)
+        buttonLight_G.setTextColor(buttonRes)
+        buttonLight_H.setTextColor(buttonRes)
+        buttonLight_I.setTextColor(buttonRes)
+        buttonLight_J.setTextColor(buttonRes)
+        buttonLight_K.setTextColor(buttonRes)
+        buttonLight_L.setTextColor(buttonRes)
+        buttonLight_M.setTextColor(buttonRes)
+        buttonLight_N.setTextColor(buttonRes)
+        buttonLight_O.setTextColor(buttonRes)
+        buttonLight_P.setTextColor(buttonRes)
+        buttonLight_Q.setTextColor(buttonRes)
+        buttonLight_R.setTextColor(buttonRes)
+        buttonLight_S.setTextColor(buttonRes)
+        buttonLight_T.setTextColor(buttonRes)
+        buttonLight_U.setTextColor(buttonRes)
+        buttonLight_V.setTextColor(buttonRes)
+        buttonLight_W.setTextColor(buttonRes)
+        buttonLight_X.setTextColor(buttonRes)
+        buttonLight_Y.setTextColor(buttonRes)
+        buttonLight_Z.setTextColor(buttonRes)
     }
 
     private fun buttonPressed(action: Int, button: Button) {
@@ -288,7 +248,15 @@ class MainActivity : AppCompatActivity() {
             MotionEvent.ACTION_DOWN -> {
                 button.setBackgroundResource(R.drawable.button_enabled_shape)
                 button.setTextColor(resources.getColor(R.color.buttonTextColorActive))
-                charDisplay(button.text[0])
+
+                //Check for keyboard buttons
+                if (button.text.length == 1)
+                    charDisplay(button.text[0])
+
+                if (button.text.equals("SETTINGS")) {
+                    val settingIntent = Intent(this, Settings::class.java)
+                    startActivity(settingIntent)
+                }
             }
             MotionEvent.ACTION_UP -> {
                 button.setBackgroundResource(R.drawable.button_shape)
@@ -300,4 +268,3 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
-

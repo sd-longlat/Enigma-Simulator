@@ -874,10 +874,10 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/text_bg"
+        android:background="@drawable/button_shape"
         android:text="Settings"
         android:textColor="@color/buttonTextColor"
         app:layout_constraintBottom_toBottomOf="@+id/rotorsLayout"
@@ -894,9 +894,9 @@
         android:layout_marginTop="16dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/rotorsLayout"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSettings"
         app:layout_constraintStart_toEndOf="@+id/rotorsLayout"
-        app:layout_constraintTop_toBottomOf="@+id/button2">
+        app:layout_constraintTop_toBottomOf="@+id/buttonSettings">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -915,7 +915,7 @@
                 android:textColor="@color/buttonTextColor" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textViewRotors"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"
@@ -944,7 +944,7 @@
                 android:textColor="@color/buttonTextColor" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/textViewStartPos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"

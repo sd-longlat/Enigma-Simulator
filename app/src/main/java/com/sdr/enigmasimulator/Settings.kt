@@ -25,5 +25,7 @@ class Settings : AppCompatActivity() {
         reflector.minValue = 1
         reflector.maxValue = reflectors.size
         reflector.displayedValues = reflectors
+
+
     }
 }
